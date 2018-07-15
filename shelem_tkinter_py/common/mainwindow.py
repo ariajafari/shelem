@@ -11,8 +11,11 @@ mehranzareh@gmail.com
 from tkinter import *
 
 class mainWindow(Frame):
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
-        self.master = master
-        self.master.title('Shelem')
-        self.master.configure(background='green')
+    def __init__(this, master=None):
+        Frame.__init__(this, master)
+        this.master = master
+        this.master.title('Shelem')
+        this.master.configure(background='green')
+        this.master.geometry('800x550')
+        
+    
